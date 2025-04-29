@@ -18,9 +18,9 @@ pipeline {
             steps {
                 echo 'Deploying HTML files to Apache server'
                 // Clean the old files
-                sh 'sudo rm -rf /var/www/html/*'
+                // sh 'sudo rm -rf /var/www/html/*'
                 // Copy new files
-                sh 'sudo cp -r * /var/www/html/'
+                // sh 'sudo cp -r * /var/www/html/'
             }
         }
     }
